@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd" >
+           <bean id="book1" class="com.rits.model.Book">
+           <property name="bookName" value="Book1"></property>
+           <property name="bookId" value="3333"></property>
+           </bean>
+           <bean id="book12" class="com.rits.model.Book">
+           <property name="bookName" value="Book2"></property>
+           <property name="bookId" value="333344"></property>
+           </bean>
+           <bean id="bookCollection" class="com.rits.model.BookCollection">
+           <property name="bookList">
+           <list>
+           <ref bean="book1"/>
+           <ref bean="book12"/>
+           </list>
+           </property>
+           </bean>
+           <bean id="bookLibrary" class="com.rits.model.BookLibrary">
+           <property name="allBooks" value="#{bookCollection.bookList}"></property>
+           <property name="firstBook" value="#{bookCollection.getFirstBook()}"></property>
+           </bean>
+           <bean id="randomGenerator" class="com.rits.model.RandomNumberGenerator">
+           <property name="randomNumber" value="#{T(java.lang.Math).random()}"></property>
+           <property name="pi" value="#{T(java.lang.Math).PI}"></property>
+           </bean>
+           </beans>

@@ -1,0 +1,13 @@
+package com.rits.test;
+
+import com.rits.DataService;
+
+public class DataServiceStub implements DataService {
+
+	@Override
+	public int[] retrieveAllData() {
+		
+		return null;
+	}
+
+}

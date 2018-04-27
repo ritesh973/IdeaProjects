@@ -1,0 +1,22 @@
+
+esquid:S1481",Remove this unused "integer" local variable.(ú¼ûœýÿÿÿÿ8ÁþÏÿ™,HáRMINORZ
+CODE_SMELL
+q
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(âÉÀÜüÿÿÿÿ8é£Ãÿ™,H×RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HÒRMINORZ
+CODE_SMELL
+dsquid:S1481"+Remove this unused "string" local variable.(’Ô¼®úÿÿÿÿ8é£Ãÿ™,HØRMINORZ
+CODE_SMELL
+csquid:S1481	"/Remove this unused "bigDecimal" local variable.(§ËÃ¨8é£Ãÿ™,HÙRMINORZ
+CODE_SMELL
+rsquid:S1854	">Remove this useless assignment to local variable "bigDecimal".(§ËÃ¨8é£Ãÿ™,HÛRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ü»ˆHÑRMAJORZ
+CODE_SMELL
+tsquid:S1854";Remove this useless assignment to local variable "integer".(ú¼ûœýÿÿÿÿ8ÁþÏÿ™,HâRMAJORZ
+CODE_SMELL
+Zsquid:S2129"!Remove this "Integer" constructor(ú¼ûœýÿÿÿÿ8ÁþÏÿ™,HãRMAJORZ
+CODE_SMELL

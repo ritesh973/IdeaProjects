@@ -1,0 +1,14 @@
+package com.rits.test;
+
+import org.junit.Test;
+
+import com.rits.SomeBusinessImpl;
+
+public class SomeBusinessTest {
+
+	@Test
+	public void testFindTheGreatestFromAllData(){
+		SomeBusinessImpl businessImpl = new SomeBusinessImpl();
+		businessImpl.findGreatestFromAllData();
+	}
+}
